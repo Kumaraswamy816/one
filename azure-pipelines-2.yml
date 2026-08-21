@@ -20,7 +20,7 @@ steps:
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'package'
-
+ hlo
 - task: TomcatDeployment@1
   inputs:
     TomcatUrl: '$(url)'
